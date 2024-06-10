@@ -1,0 +1,14 @@
+.animate-table-row{
+        transform: translateY(50px);
+        animation: animate-table 0.5s ease-in-out forwards ;
+}
+
+@keyframes animate-table {
+    from{
+        transform: translateY(50px);
+    }
+
+    to{
+        transform: translateY(0px) ;
+    }
+}
